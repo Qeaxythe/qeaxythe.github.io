@@ -18,25 +18,42 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Qeaxythe
+email: nicolefranco@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My portfolio, app creations, and digital products.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://qeaxythe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: nykolfranco
+github_username:  qeaxythe
 
 # Build settings
-# theme: minima1
+# theme: minima
 remote_theme: jekyll/minima@1e8a445
+
+# Minima theme options
+# These are the default options for the Minima theme.
+# You can override these options in your `_config.yml` file.
+minima:
+  nav_pages:
+    - about_me.md
+    - portfolio.md
+    - products.md
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
 markdown: kramdown
+
+# Navlink (for customizing the navigation bar)
+nav_links:
+  - title: "About Me"
+    url: /about_me
+  - title: "Portfolio"
+    url: /portfolio
+  - title: "Products"
+    url: /products
 
 # Exclude from processing.
 # The following items will not be processed, by default.

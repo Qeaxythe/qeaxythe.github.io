@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+I'm a developer and digital creator.
+
+Looking for my updates? Read more of them below:
