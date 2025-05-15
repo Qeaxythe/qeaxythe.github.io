@@ -39,6 +39,7 @@ minima:
     - about_me.md
     - portfolio.md
     - products.md
+    - blogs.md
 
 plugins:
   - jekyll-feed
@@ -47,9 +48,12 @@ plugins:
 markdown: kramdown
 
 # Navlink (for customizing the navigation bar)
+# Make sure to change the nav_pages options under minima
 nav_links:
   - title: "About Me"
     url: /about_me
+  - title: "Blogs"
+    url: /blogs
   - title: "Portfolio"
     url: /portfolio
   - title: "Products"
