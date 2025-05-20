@@ -1,0 +1,179 @@
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #f8fafc;
+  color: #222;
+  line-height: 1.7;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 2.5em;
+  padding-top: 1em;
+}
+
+.resume-header h1 {
+  font-size: 2.7em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0.2em;
+  color: #1a237e;
+}
+
+.resume-header p {
+  font-size: 1.1em;
+  color: #444;
+}
+
+.resume-header a {
+  color: #1976d2;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.resume-header a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #e3e8ee;
+  margin: 2em 0 2.5em 0;
+}
+
+.resume-section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(30, 34, 90, 0.06);
+  padding: 2em 2em 1.5em 2em;
+  margin-bottom: 2em;
+}
+
+.resume-section h2 {
+  color: #1976d2;
+  font-size: 1.35em;
+  font-weight: 600;
+  margin-bottom: 1em;
+  letter-spacing: 0.5px;
+  border-left: 4px solid #1976d2;
+  padding-left: 0.6em;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.skills-list li {
+  background: #e3e8ee;
+  color: #222;
+  padding: 0.45em 1.1em;
+  border-radius: 20px;
+  font-size: 1em;
+  margin-bottom: 0.3em;
+}
+
+.job {
+  margin-bottom: 1.5em;
+}
+.job h3 {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+  color: #222;
+}
+.job span {
+  color: #1976d2;
+  font-weight: 500;
+}
+.job-date {
+  font-size: 0.97em;
+  color: #888;
+  margin-bottom: 0.5em;
+  display: block;
+}
+.job ul {
+  margin: 0.2em 0 0.7em 1.2em;
+  padding: 0;
+}
+
+.education h3 {
+  font-size: 1.08em;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+  color: #222;
+}
+.education span {
+  color: #1976d2;
+  font-weight: 500;
+}
+.education .job-date {
+  font-size: 0.97em;
+  color: #888;
+}
+
+.resume-section ul {
+  margin: 0.5em 0 0.7em 1.2em;
+  padding: 0;
+}
+
+.resume-download {
+  display: inline-block;
+  background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+  color: #fff;
+  padding: 0.7em 1.5em;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.08em;
+  box-shadow: 0 2px 8px rgba(30, 34, 90, 0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.resume-download:hover {
+  background: linear-gradient(90deg, #0d47a1 60%, #1976d2 100%);
+  box-shadow: 0 4px 16px rgba(30, 34, 90, 0.13);
+}
+
+.resume-download.small {
+  font-size: 0.95em;
+  padding: 0.4em 1em;
+  margin-top: 0.7em;
+  margin-bottom: 0.5em;
+  border-radius: 18px;
+  box-shadow: none;
+  background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+}
+.resume-header .resume-download.small {
+  display: inline-block;
+}
+
+.resume-flex-row {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+.resume-flex-row .resume-section {
+  flex: 1 1 0;
+  margin-bottom: 0;
+}
+@media (max-width: 900px) {
+  .resume-flex-row {
+    flex-direction: column;
+    gap: 1.2em;
+  }
+}
+
+@media (max-width: 700px) {
+  .resume-section {
+    padding: 1.2em 0.7em 1em 0.7em;
+  }
+  .resume-header h1 {
+    font-size: 2em;
+  }
+  .skills-list {
+    flex-direction: column;
+    gap: 0.3em;
+  }
+}

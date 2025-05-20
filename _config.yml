@@ -40,6 +40,7 @@ minima:
     - portfolio.md
     - products.md
     - blogs.md
+    - resume.md
 
 plugins:
   - jekyll-feed
@@ -58,6 +59,8 @@ nav_links:
     url: /portfolio
   - title: "Products"
     url: /products
+  - title: "Resume"
+    url: /resume
 
 # Exclude from processing.
 # The following items will not be processed, by default.
